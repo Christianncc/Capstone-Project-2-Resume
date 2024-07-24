@@ -1,0 +1,591 @@
+
+
+  body {
+    color: #40514e;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    
+    
+  }
+
+  .first-row {
+    text-align: center;
+    width: auto;
+    padding-top: 400px;
+    background-image: linear-gradient(#d8cbfc, #f4eaf8, #c0e2e6, #c5f6f8) ;
+    
+   
+  }
+  
+h1 {
+    position: relative;
+    bottom: 300px;
+    color: #384f50;
+   font-size: 80px;
+  z-index: 1;
+ 
+  }
+  
+h2 {
+    position: relative;
+    bottom: 300px;
+    color: #384f50;
+    font-size: 40px;
+    z-index: 1;
+  }
+
+.title-text { 
+letter-spacing: 2px;
+line-height: 30px;
+}
+
+.mountain {
+position: absolute;
+top: 300px;
+}
+
+.planet {
+position: absolute;
+top: -150px;
+left: -50px;
+opacity: .8;
+}
+
+.windmill {
+position: absolute;
+top: 318px;
+left: 350px;
+}
+
+.moon2 {
+position: absolute;
+top: -10px;
+right: 50px;
+opacity: .6;
+
+}
+
+.profile {
+   
+    
+border-radius: 50%;
+}
+
+.columni {
+display: grid;
+grid-template-columns: 1fr ;
+grid-template-rows: 170vh .1fr 1fr;
+}
+
+.second-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 150vh;
+    gap: 10px;
+}
+
+.icon {
+    position: relative;
+    margin-right: 10px;
+    top: 1px;
+}
+
+
+
+h3 { font-size: 35px;
+    color: #19191a;
+}
+h4 { font-size: 30px;
+color: #19191a;
+}
+p { font-size: 20px;
+color: #19191a;
+} 
+.piktur {
+  height: 300px;
+  border: solid black;
+}  
+
+.third-row {
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.flex {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.third-text {
+  font-size: 40px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #19191a;
+}
+
+
+@media (max-width: 1627px) {
+  .columni {
+    
+    grid-template-rows: 200vh .1fr 1fr;
+    }
+}
+
+@media (max-width: 1450px) {
+    
+  .header {
+      font-size: 60px;
+  }
+  
+  .subheader {
+      font-size: 30px;
+  }
+  
+  .first-row {
+      text-align: center;
+      position: relative;
+      padding-top: 400px;
+      background-image: linear-gradient(#a1e6e6, #CBF1F5, #A6E3E9, #71C9CE) ;
+    }
+    
+  
+  .mountain {
+  position: absolute;
+  top: 275px;
+  }
+  
+  
+  .windmill {
+  position: absolute;
+  top: 292px;
+  left: 350px;
+  }
+  
+  .second-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 145vh;
+    gap: 20px;
+}
+
+.icon {
+    position: relative;
+    margin-right: 10px;
+    top: 1px;
+}
+
+.column1 { justify-content: baseline;
+align-items: baseline;
+align-content: baseline;
+
+
+.columni {
+  display: grid;
+  grid-template-columns: 1fr ;
+  grid-template-rows: 1fr .1fr 1fr;
+  }
+
+}
+
+h3 { font-size: 35px;
+    color: #19191a;
+}
+h4 { font-size: 30px;
+color: #19191a;
+}
+p { font-size: 20px;
+color: #19191a;
+}
+  
+h6 {
+    font-size: 200px;
+}
+
+
+.columni {
+  display: grid;
+  grid-template-columns: 1fr ;
+  grid-template-rows: 200vh 15vh 100vh;
+  }
+
+
+.third-row {
+ 
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  
+}
+   }
+   @media (max-width: 1310px) {
+    
+    .header {
+        font-size: 50px;
+    }
+    
+    .subheader {
+        font-size: 25px;
+    }
+    
+    .first-row {
+        text-align: center;
+        position: relative;
+        padding-top: 400px;
+        background-image: linear-gradient(#a1e6e6, #CBF1F5, #A6E3E9, #71C9CE) ;
+      }
+      
+    
+    .mountain {
+    position: absolute;
+    top: 262px;
+    }
+    
+    
+    .windmill {
+    position: absolute;
+    top: 280px;
+    left: 350px;
+    }
+    
+    .second-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      margin-left: 200px;
+      margin-right: 200px;
+      height: 210vh;
+      gap: 20px;
+  }
+  
+  .icon {
+      position: relative;
+      margin-right: 10px;
+      top: 1px;
+  }
+  
+  
+  
+  .column1 { justify-content: baseline;
+  align-items: baseline;
+  align-content: baseline;
+  
+  }
+  
+  
+  h3 { font-size: 35px;
+      color: #19191a;
+  }
+  h4 { font-size: 30px;
+  color: #19191a;
+  }
+  p { font-size: 20px;
+  color: #19191a;
+  }
+    
+    
+    
+  h6 {
+      font-size: 200px;
+  }
+        
+    
+     }
+
+
+
+  
+
+
+
+
+ 
+
+     @media (max-width: 1194px) {
+
+      .first-row {
+      padding-top: 200px;
+      width: auto;
+      background-image: linear-gradient(#a1e6e6, #CBF1F5, #A6E3E9, #71C9CE) ;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      
+    }
+      
+    .header {
+        font-size: 45px;
+    }
+    
+    .subheader {
+        font-size: 25px;
+    }
+    
+    .first-row {
+        text-align: center;
+        position: relative;
+        padding-top: 400px;
+        background-image: linear-gradient(#a1e6e6, #CBF1F5, #A6E3E9, #71C9CE) ;
+         overflow-x: hidden;
+      }
+      
+    
+      .mountain {
+        position: absolute;
+        top: 319px;
+        right: 0;
+        height: 300px;
+        
+        }
+        
+        .planet {
+        position: absolute;
+        top: -80px;
+        right: 220px;
+        opacity: .8;
+        height: 300px;
+        }
+        
+        .windmill {
+        position: absolute;
+        top: 343px;
+        left: 200px;
+        height: 200px;
+        }
+        
+        .moon2 {
+        position: absolute;
+        top: -60px;
+        right: -50px;
+        opacity: .6;
+        height: 300px;
+        
+        }
+    
+    .second-row {
+      padding-top: 3%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      margin-left: 50px;
+      margin-right: 50px;
+      height: 110vh;
+      gap: 20px;
+  }
+  
+  .columni {
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 130vh 15vh 100vh;
+    }
+  
+  .profile {
+    
+     height: 150px;
+     width: 160px;
+      
+  border-radius: 50%;
+  }
+  
+  .icon {
+      position: relative;
+      margin-right: 10px;
+      top: 1px;
+  }
+  
+  .column1 { justify-content: baseline;
+  align-items: baseline;
+  align-content: baseline;
+  
+  }
+  
+  h3 { font-size: 25px;
+      color: #19191a;
+  }
+  h4 { font-size: 20px;
+  color: #19191a;
+  }
+  p { font-size: 15px;
+  color: #19191a;
+  }
+    
+    
+    
+  h6 {
+      font-size: 200px;
+  }
+        
+    
+     }
+  
+  
+     @media (max-width: 807px) {
+
+      .second-row {
+        padding-top: 3%;
+        display: flex;
+        flex-direction: column;
+        height: 215vh;
+        
+    }
+    
+    
+    
+    .column2 {
+    display: block;
+    
+    margin-right: 0;
+    
+    }
+    
+    .profile {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+       height: 150px;
+       width: 160px;
+        
+    border-radius: 50%;
+    }
+    
+    .icon {
+        position: relative;
+        margin-right: 10px;
+        top: 1px;
+    }
+    
+    .columni {
+      display: grid;
+      grid-template-columns: 1fr ;
+      grid-template-rows: 190vh 15vh 100vh;
+      }
+    
+    
+    
+    h3 { font-size: 25px;
+        color: #19191a;
+    }
+    h4 { font-size: 20px;
+    color: #19191a;
+    }
+    p { font-size: 15px;
+    color: #19191a;
+    }
+      
+      
+      
+    h6 {
+        font-size: 200px;
+    }
+          
+      
+       }
+
+       @media (max-width: 695px) {
+
+
+        .first-row {
+          padding-top: 200px;
+          width: auto;
+          background-image: linear-gradient(#a1e6e6, #CBF1F5, #A6E3E9, #71C9CE) ;
+          overflow-x: hidden;
+          overflow-y: hidden;
+          
+        }
+          
+        .header {
+            font-size: 40px;
+        }
+        
+        .subheader {
+            font-size: 20px;
+        }
+        
+        .first-row {
+            text-align: center;
+            position: relative;
+            padding-top: 400px;
+            background-image: linear-gradient(#a1e6e6, #CBF1F5, #A6E3E9, #71C9CE) ;
+             overflow-x: hidden;
+          }
+    
+         
+          
+        
+          .mountain {
+            position: absolute;
+            top: 345px;
+            right: 0;
+            height: 250px;
+            
+            }
+            
+            .planet {
+            position: absolute;
+            top: -50px;
+            right: 220px;
+            opacity: .8;
+            height: 200px;
+            }
+            
+            .windmill {
+            position: absolute;
+            top: 332px;
+            left: 100px;
+            height: 200px;
+            }
+            
+            .moon2 {
+            position: absolute;
+            top: -30px;
+            right: -50px;
+            opacity: .6;
+            height: 200px;
+            
+            }
+            
+          .piktur {
+      height: 200px;
+      
+    }  }
+
+
+    @media (max-width: 695px) {
+      .columni {
+       
+        grid-template-rows: 210vh 15vh 100vh;
+        }
+    }
+
+    @media (max-width: 420px) {
+      
+      .columni {
+        grid-template-rows: 230vh 15vh 100vh;
+        }
+      
+      .piktur {
+        height: 150px;
+      }
+    }
+    
+
+
+
+    
+
+
+  
+
